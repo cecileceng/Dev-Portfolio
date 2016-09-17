@@ -1,0 +1,97 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	padding-top: 50px;
+	margin: 0 0 200px;
+	background-color: #FFF0E0;
+}
+
+p {
+	font-family: 'BenchNine', sans-serif;
+	font-size: 24px;
+}
+
+.container-full {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.jumbotron {
+	background-color: #FFF0E0;
+}
+
+#aboutme {
+	min-height: 400px;
+	background-image:url('../../assets/img/watercolor-ombre.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#myportfolio {
+	min-height: 400px;
+	background-image:url('../../assets/img/watercolor-ombre-blue.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#contactme {
+	min-height: 200px;
+	background-image:url('../../assets/img/watercolor-swashpink.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#portfolio img {
+	width:300px;
+	height:200px;
+}
+
+#resume {
+	min-height: 200px;
+	background-image:url('../../assets/img/watercolor-swashblue.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.logo {
+	font-family: 'Satisfy', cursive;
+	font-size: 36px;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px gray;
+}
+
+.myNav {
+	font-family: 'Shadows Into Light Two', cursive;
+	padding: 10px;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.homedrop {
+	background: url('../../assets/img/pink-circle.png') no-repeat center 200px;
+	background-size: 100px auto;
+	background-position: bottom left;
+	background-color: #FFF0E0;
+}
+
+.portdrop {
+	background: url('../../assets/img/blue-circle.png') no-repeat center 200px;
+	background-size: 100px auto;
+	background-position: bottom left;
+	background-color: #FFF0E0;
+}
+
+footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	color: gray;
+	font-size: 12px;
+	width: 100%;
+	height: 200px;
+}
